@@ -37,7 +37,7 @@ def main():
 #         st.write(add(a, b))
 #     elif operation == "Subtract":
 #         st.write(sub(a, b))
-    elif operation == "Multiply":
+    if operation == "Multiply":
         st.write(mul(a, b))
 #     elif operation == "Divide":
 #         st.write(div(a, b))
