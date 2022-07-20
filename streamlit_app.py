@@ -32,13 +32,13 @@ def main():
 #     st.write("This is a simple calculator app")
     a = st.number_input("Enter 1st Number")
     b = st.number_input("Enter 2nd Number")
-    operation = st.selectbox(["Multiply"])
+#     operation = st.selectbox(["Multiply"])
 #     if operation == "Add":
 #         st.write(add(a, b))
 #     elif operation == "Subtract":
 #         st.write(sub(a, b))
-    if operation == "Multiply":
-        st.write(mul(a, b))
+#     if operation == "Multiply":
+    st.write(mul(a, b))
 #     elif operation == "Divide":
 #         st.write(div(a, b))
 if __name__ == '__main__':
